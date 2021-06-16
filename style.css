@@ -9,13 +9,19 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 13px;
+}
+
+#logo {
+  width: 60px;
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
-  order: 1;
+  /* order: 1; */
 }
 
 #trybewarts-forms-logo {
@@ -38,4 +44,12 @@ main #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+}
+
+#evaluation-form {
+  padding: 50PX;
+}
+
+#h1-form {
+  margin: 20px 0;
 }
