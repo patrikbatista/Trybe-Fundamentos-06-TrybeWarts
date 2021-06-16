@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
+
 <body>
   <header class="header">
     <img id="logo" src="images/trybewarts-header-logo.svg" alt="logo trybewarts" class="trybewarts-header-logo">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form action="" class="trybewarts-login">
-      <input id= "input-login" class="form-control" type="text" placeholder = "Login">
-      <input id= "input-senha"class="form-control" type="text" placeholder = "Senha">
+      <input id="input-login" class="form-control" type="text" placeholder="Login">
+      <input id="input-senha" class="form-control" type="text" placeholder="Senha">
       <button id="header-button">Logar</button>
     </form>
   </header>
@@ -21,17 +23,14 @@
     <form action="" method="GET" id="evaluation-form">
       <H1 id="h1-form">Formulário</H1>
       <div>
-        <label for="">Nome
-          <input type="text" id="input-name" placeholder="Nome">
-        </label>
-        <label for="">Sobrenome
-          <input type="text" id="input-lastname" placeholder="Sobrenome">
-        </label>
+        <label for="input-name">Nome</label>
+        <input type="text" id="input-name" placeholder="Nome">
+        <label for="input-lastname">Sobrenome</label>
+        <input type="text" id="input-lastname" placeholder="Sobrenome">
       </div>
       <div>
-        <label for="">Email
-          <input type="text" id="input-email" placeholder="Email">
-        </label>
+        <label for="input-email">Email</label>
+        <input type="text" id="input-email" placeholder="Email">
         <label for="house">Casa
           <select name="casa" id="house">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -41,10 +40,25 @@
           </select>
         </label>
       </div>
+      <label for="" id="label-family">Qual sua família?</label>
+      <div>
+        <input type="radio" id="frontend" name="family" value="Frontend">
+        <label for="frontend"> Frontend</label>
+      </div>
+      <div>
+        <input type="radio" id="backend" name="family" value="Backend">
+        <label for="backend"> Backend</label>
+      </div>
+      <div>
+          <input type="radio" id="fullstack" name="family" value="FullStack">
+          <label for="fullstack"> FullStack</label>
+        </div>
+      
     </form>
     <img src="images/trybewarts-colored.svg" alt="imagem trybewarts" id="trybewarts-forms-logo">
   </main>
   <footer>Direitos reservados à Trybewarts©</footer>
 </body>
 <script src="script.js"></script>
+
 </html>

@@ -52,3 +52,12 @@ main #evaluation-form {
 #h1-form {
   margin: 20px 0;
 }
+
+/* #label-family {
+  display: flex;
+  flex-direction: column;
+} */
+
+#label-family input {
+  margin: 5px 0;
+}
