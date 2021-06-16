@@ -1,6 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  order: 1;
+}
+
+#trybewarts-forms-logo {
+  width: 500px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+#header-button {
+  margin-right: 10px;
+}
+
 main {
   display: flex;
 }
+
 main #evaluation-form {
   display: flex;
   flex-direction: column;
