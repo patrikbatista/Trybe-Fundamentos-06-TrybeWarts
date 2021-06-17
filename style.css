@@ -40,10 +40,12 @@
 
 main {
   display: flex;
-
+  height: 100vh;
+  width: 100vw;
 }
 
 main #evaluation-form {
+
   display: flex;
   flex-direction: column;
   width: 675px;
@@ -61,4 +63,15 @@ main #evaluation-form {
 
 #label-family input {
   margin: 5px 0;
+}
+
+footer {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #3c404a;
+  height: 60px;
+  width: 100%;
 }
